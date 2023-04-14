@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiFillInstagram, AiOutlineMail, AiOutlineLinkedin, AiOutlineInstagram} from 'react-icons/ai'
 import {BsFillPersonLinesFill, BsPersonVcard} from 'react-icons/bs'
 import { useRouter } from 'next/router'
-import zetaGroupLogo from '../public/assets/zetaGroupLogo.png'
+import zetaGroupLogo from '../public/assets/dsrEscudo2.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);

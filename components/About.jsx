@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import aboutImg from '../public/assets/zetaGroupLogo.png'
+import aboutImg from '../public/assets/dsrEscudo2.png'
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#365084]'>Acerca de</p>
-                <h2 className='py-4'><span className='text-[#365084]'>ZETA</span><span className='text-[#a21a21]'>GROUP</span></h2>
+                <h2 className='py-4'>DEL SUR CLUB</h2>
                 <p className='py-2 text-gray-600'>Te guiamos en la protección de tus derechos.</p>
                 <p className='py-2 text-gray-600'>
                 Nuestro propósito es llevar de la mano al inmigrante, ayudarlo a discernir que resulta 
