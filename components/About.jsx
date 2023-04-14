@@ -8,8 +8,8 @@ const About = () => {
     <div id='about' className='w-full md:h-screen py-20 md:p-2 flex items-center text-center'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-span-2'>
-                <p className='uppercase text-xl tracking-widest text-[#365084]'>Acerca de</p>
-                <h2 className='py-4'>DEL SUR CLUB</h2>
+                <p className='uppercase text-xl tracking-widest text-yellow-400'>Acerca de</p>
+                <h2 className='py-4 text-sky-400'>DEL SUR CLUB</h2>
                 <p className='py-2 text-gray-600'>Te guiamos en la protección de tus derechos.</p>
                 <p className='py-2 text-gray-600'>
                 Nuestro propósito es llevar de la mano al inmigrante, ayudarlo a discernir que resulta 

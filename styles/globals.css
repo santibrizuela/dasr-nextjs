@@ -30,11 +30,11 @@ html{
 
     
     .btn{
-        @apply inline-block p-2 shadow-xl shadow-gray-400 rounded-xl uppercase bg-[#365084]
+        @apply inline-block p-2 shadow-xl shadow-gray-400 rounded-xl uppercase bg-sky-400
     }
 
     .btn:hover{
-        @apply bg-gradient-to-r from-[#365084] to-[#a21a21] text-white
+        @apply bg-gradient-to-r from-sky-400 to-yellow-400 text-white
     }
 
     .btn-outline{
@@ -42,15 +42,15 @@ html{
     }
 
     .btn-outline:hover{
-        @apply bg-gradient-to-r from-[#365084] to-[#a21a21] text-white
+        @apply bg-gradient-to-r from-sky-400 to-yellow-400 text-white border-sky-400
     }
 
     .icolink:hover{
-        @apply text-[#a21a21] ease-in duration-300
+        @apply text-sky-400 ease-in duration-300
     }
 
     .mask{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../public/assets/headerImgZeta.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../public/assets/headerImgDsr.png');
         background-size: cover;
         background-position: center;
     }
