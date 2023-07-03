@@ -34,7 +34,7 @@ html{
     }
 
     .btn:hover{
-        @apply bg-gradient-to-r from-sky-400 to-yellow-400 via-black text-white
+        @apply bg-gradient-to-r from-sky-400 via-black-500 to-yellow-400 text-white
     }
 
     .btn-outline{
@@ -42,7 +42,7 @@ html{
     }
 
     .btn-outline:hover{
-        @apply bg-gradient-to-r from-sky-400 to-yellow-400 via-black text-white border-sky-400
+        @apply bg-gradient-to-r from-sky-400 via-black-500 to-yellow-400 text-white border-sky-400
     }
 
     .icolink:hover{
